@@ -13,9 +13,11 @@ with st.sidebar:
 if menu == "IMAGES-BASED":
     st.title("IMAGE - FACE DETECTION")
     run_image_mode(st)
+
 elif menu == "VIDEO-BASED":
     st.title("VIDEO - FACE DETECTION")
     run_video_mode(st)
+    
 elif menu == "CAMERA-BASED":
     st.title("CAMERA - FACE DETECTION")
     st.info("camera-based face detection is only available in the LOCALHOST mode. "
